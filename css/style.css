@@ -112,6 +112,7 @@ nav .navegacion ul li a:hover{
 #caracteristicas .car-box{
     background-color: #f9f9ff;
     text-align: start;
+    padding: 0 15px 0 15px;
 }
 
 #caracteristicas .car-box i{
@@ -136,6 +137,11 @@ nav .navegacion ul li a:hover{
     grid-gap: 1rem;
     margin-top: 50px;
 }
+#caracteristicas .car-base .icono-serv{
+    padding: 20px 0 0 20px;
+
+}
+
 /* Servicios Populares */
 #sp{
     padding: 8vw 8vw 0 8vw;
