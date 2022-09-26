@@ -458,11 +458,30 @@ footer .footer-bottom p{
     .slideshow img {
         width: 98%;
     }
+
 }
 
 @media screen and (max-width: 600px) {
     .columna {
         flex: 100%;
         max-width: 100%;
+    }
+   
+    
+}
+
+@media only screen and (min-width: 320px) and (max-width: 500px) {
+    .encabezado {
+        padding: 29vw 4vw 16px 4vw;
+    }
+}
+@media only screen and (min-width: 501px) and (max-width: 799px) {
+    .encabezado {
+        padding: 18vw 4vw 16px 4vw;
+    }
+}
+@media only screen and (min-width: 800px) and (max-width: 1100px) {
+    .encabezado {
+        padding: 20vw 4vw 16px 4vw;
     }
 }
