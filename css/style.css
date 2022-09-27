@@ -83,6 +83,142 @@ nav .navegacion ul li a:hover{
     color:#FDC93B
 }
 
+/* Servicios */
+.contenedor-serv{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 44px;
+}
+.card{
+    min-height: 220px;
+    width: 300px;
+    padding: 20px;
+    border-radius:5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+    background: #fff;
+    margin: 10px 5px;
+    transition: 0.3s;
+}
+.card h2{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.card p{
+    color: #6c757d;
+    text-align: center;
+}
+
+.card:hover {
+    background: linear-gradient(90deg,
+     rgb(24 24 26 / 70%) 0%,
+     rgb(0 0 0 / 70%) 35%,
+     rgba(0,212,255,0.7) 100%),
+     url(../img/serv1.png);
+    opacity: 0.8;
+    color: #fff;
+}
+
+.card:nth-child(2):hover {
+   background: linear-gradient(90deg,
+     rgb(24 24 26 / 70%) 0%,
+     rgb(0 0 0 / 70%) 35%,
+     rgba(0,212,255,0.7) 100%),
+    url('../img/serv2.png');
+   opacity: 0.8;
+   color: #fff;
+}
+.card:nth-child(3):hover {
+   background: linear-gradient(90deg,
+     rgb(24 24 26 / 70%) 0%,
+     rgb(0 0 0 / 70%) 35%,
+     rgba(0,212,255,0.7) 100%),
+    url('../img/serv3.png');
+   opacity: 0.8;
+   color: #fff;
+}
+
+.card:nth-child(4):hover {
+   background: linear-gradient(90deg,
+     rgb(24 24 26 / 70%) 0%,
+     rgb(0 0 0 / 70%) 35%,
+     rgba(0,212,255,0.7) 100%),
+    url('../img/serv4.png');
+   opacity: 0.8;
+   color: #fff;
+}
+
+.card:nth-child(5):hover {
+   background: linear-gradient(90deg,
+     rgb(24 24 26 / 70%) 0%,
+     rgb(0 0 0 / 70%) 35%,
+     rgba(0,212,255,0.7) 100%),
+    url('../img/serv5.png');
+   opacity: 0.8;
+   color: #fff;
+}
+
+.card:nth-child(6):hover {
+   background: linear-gradient(90deg,
+     rgb(24 24 26 / 70%) 0%,
+     rgb(0 0 0 / 70%) 35%,
+     rgba(0,212,255,0.7) 100%),
+    url('../img/serv6.png');
+   opacity: 0.8;
+   color: #fff;
+}
+
+.card:nth-child(7):hover {
+   background: linear-gradient(90deg,
+     rgb(24 24 26 / 70%) 0%,
+     rgb(0 0 0 / 70%) 35%,
+     rgba(0,212,255,0.7) 100%),
+    url('../img/serv7.png');
+   opacity: 0.8;
+   color: #fff;
+}
+
+.card:nth-child(8):hover {
+   background: linear-gradient(90deg,
+     rgb(24 24 26 / 70%) 0%,
+     rgb(0 0 0 / 70%) 35%,
+     rgba(0,212,255,0.7) 100%),
+    url('../img/serv8.png');
+   opacity: 0.8;
+   color: #fff;
+}
+
+.card:nth-child(9):hover {
+   background: linear-gradient(90deg,
+     rgb(24 24 26 / 70%) 0%,
+     rgb(0 0 0 / 70%) 35%,
+     rgba(0,212,255,0.7) 100%),
+    url('../img/serv9.png');
+   opacity: 0.8;
+   color: #fff;
+}
+
+.card:nth-child(10):hover {
+   background: linear-gradient(90deg,
+     rgb(24 24 26 / 70%) 0%,
+     rgb(0 0 0 / 70%) 35%,
+     rgba(0,212,255,0.7) 100%),
+    url('../img/serv10.png');
+   opacity: 0.8;
+   color: #fff;
+}
+
+.card:hover i,
+.card:hover p{
+    color: #fff;
+}
 /*Nosotros*/
 #nosotros{
     background-image: linear-gradient(rgba(9, 5, 54, 0.3), rgb(12 12 12 / 70%)),url('../img/nosotros.jpg');
@@ -458,6 +594,8 @@ footer .footer-bottom p{
 
 /* tablet */
 @media(max-width:769px) {
+
+    
     /* Navegacion */
     nav{
        padding: 15px 20´x;
