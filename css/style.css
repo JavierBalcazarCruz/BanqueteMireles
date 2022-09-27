@@ -77,9 +77,40 @@ nav .navegacion ul li a{
     font-weight: 500;
     transition: 0.3s ease;
 }
+
+nav .navegacion ul li a.active,
 nav .navegacion ul li a:hover{
-    color:#757373
+    color:#FDC93B
 }
+
+/*Nosotros*/
+#nosotros{
+    background-image: linear-gradient(rgba(9, 5, 54, 0.3), rgb(12 12 12 / 70%)),url('../img/nosotros.jpg');
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 18% 0 18%;
+    padding-top: 40px;
+}
+
+#nosotros .h1{
+    color: #fff;
+    font-size: 2.2rem;
+    letter-spacing: 1px;
+}
+#nosotros p{
+    color: #fff;
+    width: 50%;
+    font-size: 0.9rem;
+    line-height:25px;
+    text-align: justify;
+}
+
+
 /* Inicio */
 #inicio{
     background-image: linear-gradient(rgba(9, 5, 54, 0.3), rgb(12 12 12 / 70%)),url('../img/Inicio.jpeg');
@@ -371,6 +402,58 @@ footer .footer-bottom p{
 
 .fa-ico{
     pointer-events: none;
+}
+#nosotros-contenedor{
+    display: flex;
+    align-items: center;
+    padding: 8vw 8vw 2vw 8vw;
+}
+
+#nosotros-contenedor .about-img{
+    width: 60%;
+    padding-right: 60px;
+}
+
+#nosotros-contenedor .about-img img{
+    width: 100%;
+}
+
+
+#nosotros-contenedor .about-text{
+    width: 40%;
+}
+
+#nosotros-contenedor .about-text h2{
+    color: #29393b;
+    padding-bottom: 15px;
+}
+
+#nosotros-contenedor .about-text p{
+    color: #686f7a;
+    font-weight: 300;
+}
+
+#nosotros-contenedor .about-text .about-car{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 30px;
+}
+
+#nosotros-contenedor .about-text .about-car img{
+    width: 50px;
+    background-size: cover;
+    background-position: center;
+    margin-right: 20px;
+}
+
+#nosotros-contenedor .about-text .about-car .car-txt{
+    width: 90%;
+}
+
+#nosotros-contenedor .about-text .about-car .car-txt h5{
+    font-size: 16px;
+    color: #2930b2;
 }
 
 /* tablet */
