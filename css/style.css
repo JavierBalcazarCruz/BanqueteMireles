@@ -138,7 +138,7 @@ nav .navegacion ul li a:hover{
 }
 /* Caracteristicas */
 #caracteristicas{
-    padding: 5vw 8vw 0 8vw;
+    padding: 2vw 8vw 0 8vw;
     text-align: center;
 }
 #caracteristicas .car-box{
@@ -406,7 +406,7 @@ footer .footer-bottom p{
 #nosotros-contenedor{
     display: flex;
     align-items: center;
-    padding: 8vw 8vw 2vw 8vw;
+    padding: 4vw 8vw 2vw 8vw;
 }
 
 #nosotros-contenedor .about-img{
