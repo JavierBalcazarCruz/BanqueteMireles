@@ -720,6 +720,74 @@ footer .footer-bottom p {
   }
 }
 
+/*Contacto*/
+#contact{
+  padding: 8vw;
+}
+
+#contact .getin{
+  width: 350px;
+}
+
+#contact .getin h2{
+  color: #2c234d;
+  font-size: 30px;
+  font-weight: 800;
+  line-height: .8;
+  margin-bottom: 16px;
+}
+
+#contact .getin p{
+  color: #686875;
+  line-height: 24px;
+  margin-bottom: 33px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #e5e4ed;
+}
+
+#contact .getin h3{
+  color: #2c234d;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: .26px;
+  margin-bottom: 15px;
+}
+
+#contact .getin .getin-detalles div{
+  display: flex;
+}
+
+#contact .getin .getin-detalles div .get{
+  font-size: 16px;
+  line-height: 22px;
+  color: #5838fc;
+  margin-right: 20px;
+}
+
+#contact .getin .getin-detalles div p{
+  font-size: 14px;
+  border-bottom: none;
+  line-height: 22px;
+  margin-bottom: 15px;
+}
+
+#contact .getin .getin-detalles .social-links i
+{
+  padding-top: 30px;
+  font-size: 30px;
+  line-height: 22px;
+  color: #5838fc;
+  margin-right: 20px;
+  text-align: center;
+  
+}
+
+#contact .getin .getin-detalles .social-links i:hover
+{
+  color: #000;
+  cursor: pointer;
+}
+
 @media screen and (max-width: 800px) {
   .columna {
     flex: 50%;
