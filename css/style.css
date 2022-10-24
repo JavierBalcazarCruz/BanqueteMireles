@@ -718,11 +718,21 @@ footer .footer-bottom p {
   #nosotros-contenedor .about-img {
     padding-right: 30px;
   }
+  /*Contacto*/
+  #contact{
+    padding: 8vw 4vw;
+  }
+  #contact .getin {
+    width: 250px;
+  }
 }
 
 /*Contacto*/
 #contact{
   padding: 8vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
 #contact .getin{
@@ -788,6 +798,30 @@ footer .footer-bottom p {
   cursor: pointer;
 }
 
+/* Ubicación */
+
+#contact .form
+{
+  width: 60%;
+  background-color: #fff;
+  padding-left: 40px;
+  border-radius: 10px;
+}
+
+#contact .form h4{
+  font-size: 24px;
+  color: #2c234d;
+  line-height: 20px;
+  margin: 8px;
+}
+#contact .form p{
+  color: #686875;
+  line-height: 24px;  
+  padding-bottom: 25px;
+  
+}
+
+
 @media screen and (max-width: 800px) {
   .columna {
     flex: 50%;
@@ -806,7 +840,24 @@ footer .footer-bottom p {
   .slideshow img {
     width: 98%;
   }
+      /*Contacto*/
+      #contact{
+        padding: 4vw 4vw;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-content: flex-start;
+        
+      }
+      #contact .getin {
+        width: 100%;
+        margin-bottom: 30px;
+      }
+      #contact .form {
+        width: 100%;
+        padding: 0;
+      }
 }
+
 
 @media screen and (max-width: 600px) {
   .columna {
@@ -848,4 +899,5 @@ footer .footer-bottom p {
   #nosotros p {
     width: 100%;
   }
+
 }
