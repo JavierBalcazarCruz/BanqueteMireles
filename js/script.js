@@ -10,6 +10,7 @@ document.getElementById('menu-close').onclick = function(){
    element.classList.remove("active");
 }
 
+/*Galeria*/
 document.addEventListener('DOMContentLoaded', function() {
 
    let imagenes = [
@@ -86,3 +87,40 @@ document.addEventListener('DOMContentLoaded', function() {
        overlay.style.visibility = "hidden";
    }
 })
+
+/*Fondo random*/
+function bgRandon(){
+    const aImagesbg= [
+        'url("../img/nosotros.jpg"',
+        'url("../img/serv.jpg"',
+        'url("../img/Inicio.jpeg"'
+    ];
+    
+    const ini = document.querySelector("#inicio");
+    const serv = document.querySelector("#serv");
+    const nos = document.querySelector("#nosotros");
+    const bg = aImagesbg[Math.floor(Math.random()*aImagesbg.length)];
+    if(ini != null)
+    {
+        ini.style.backgroundImage = 'linear-gradient(rgba(9, 5, 54, 0.3), rgb(12 12 12 / 70%)),'+bg;
+    }
+    if(serv != null)
+    {
+        serv.style.backgroundImage = 'linear-gradient(rgba(9, 5, 54, 0.3), rgb(12 12 12 / 70%)),'+bg;
+    }
+    if(nos != null)
+    {
+        nos.style.backgroundImage = 'linear-gradient(rgba(9, 5, 54, 0.3), rgb(12 12 12 / 70%)),'+bg;
+    }
+}
+
+setInterval(bgRandon,5000);
+
+
+
+/* Modales de Servicios */
+
+document.getElementById('card1').onclick = function(){
+    debugger
+    Swal.fire('Any fool can use a computer')
+}
